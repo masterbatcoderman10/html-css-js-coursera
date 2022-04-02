@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: yellowgreen;
+  background: blue;
+}
+
 /** Header **/
 
 .logo-img {
@@ -30,25 +37,14 @@
   height: 70px;
 }
 
-.site-title {
-  vertical-align: middle;
-}
 
-.site-title-header {
-  font-size: 2em;
-  margin: 0;
-  position: absolute;
-  top: 15%;
-  left: 8%;
-
-}
 
 /** End of Header **/
 
 body {
   overflow: hidden;
   background: url("../images/sinnoh.jpeg") no-repeat;
-  background-position: 30% 35%;
+  background-position: 30% 30%;
 }
 .row {
   width: 100%;

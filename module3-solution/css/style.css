@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body { /* Body */
+    
+   background-color: #f5f5ee;
+
+}
+
+#page-nav { /* Navbar */
+    border-radius: 0%;
+    border: none;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);    
+}
+
+#page-heading {
+    font-size: 2.5vw;
+}
+
+@media (min-width: 768px) {
+
+    .invisi {
+        visibility: hidden;
+    }
+} 
+
+a.navbar-brand.brand-heading {
+    font-size: 2em;
+    color: aliceblue;
+    font-family: 'Patua One', cursive;
+}
+    
+div.collapse ul.navbar-right a.dropdown-element { /* li items in dropdown */
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif; 
+    text-align: center;
+}
+
+div.collapse ul.navbar-right li:hover, div.collapse ul.navbar-right li:focus, div.collapse ul.navbar-right li:active {
+    background: linear-gradient(90deg, #687baa 0%, #3d60a5 100%); 
+
+}
+
+h2.page-heading { /* Page Heading */
+    
+    font-family: 'Playfair Display', serif; 
+    margin: 3%;
+}
+
+#page-content {
+
+    border: 1px solid #182848;
+    
+    padding: 2px 10px;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+div#page-content h2 {
+    color: aliceblue;
+    font-size: 1.5em;
+    margin: 2%;
+}
+
+p.page-text {
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+

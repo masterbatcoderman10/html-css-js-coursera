@@ -78,7 +78,7 @@ $(function () {
 
     // *** start ***
     // On first load, show home view
-    console.log("Part zero works")
+
     showLoading("#main-content");
     $ajaxUtils.sendGetRequest(
       allCategoriesUrl,
@@ -92,7 +92,7 @@ $(function () {
   // returned from the server.
   function buildAndShowHomeHTML(categories) {
     // Load home snippet page
-    console.log("Part 2 works \n" + categories)
+
     $ajaxUtils.sendGetRequest(
       homeHtmlUrl,
       function (homeHtml) {
